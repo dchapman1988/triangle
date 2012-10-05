@@ -14,4 +14,12 @@ Gem::Specification.new do |gem|
   gem.name          = "triangle"
   gem.require_paths = ["lib"]
   gem.version       = Triangle::VERSION
+
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'minitest'
+  gem.add_development_dependency 'minitest-reporters'
+  gem.add_development_dependency 'mocha'
+  gem.add_development_dependency 'yard'
+  gem.add_development_dependency 'yardstick'
+  gem.add_development_dependency 'pry'
 end

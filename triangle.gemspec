@@ -16,10 +16,12 @@ Gem::Specification.new do |gem|
   gem.version       = Triangle::VERSION
 
   gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'simplecov'
   gem.add_development_dependency 'minitest'
   gem.add_development_dependency 'minitest-reporters'
   gem.add_development_dependency 'mocha'
   gem.add_development_dependency 'yard'
   gem.add_development_dependency 'yardstick'
   gem.add_development_dependency 'pry'
+  gem.add_development_dependency 'redcarpet'
 end
